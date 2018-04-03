@@ -1,0 +1,33 @@
+{
+  "name": "extra-credit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2018/extra-credit-assignment-1-equinox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2018/extra-credit-assignment-1-equinox/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2018/extra-credit-assignment-1-equinox#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "connect": "^3.6.6",
+    "css-loader": "^0.28.10",
+    "serve-static": "^1.13.2",
+    "style-loader": "^0.20.2",
+    "webpack-cli": "^2.0.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.0"
+  }
+}

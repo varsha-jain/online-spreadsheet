@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Equinox Spreadsheet</title>
+    <!--<link rel="stylesheet" href="./css/spreadsheet.css">-->
+    <!--<script src="./dist/bundle.js"></script>-->
+	
+</head>
+<body>
+    <div class="nav-bar">
+        <h3 class="left-title">Online Spreadsheet</h3>
+        <!-- button displayed for performing various desired functions and extra functions on button click -->
+        <img src="./images/plus.png" title="Add Rows" onclick="addRows()"/> 
+        <img src="./images/minus.svg" title="Delete Rows" onclick="deleteRows()"/>
+        <img src="./images/plus.png" title="Add columns" onclick="addColumns()"/>
+        <img src="./images/minus.svg" title="Delete columns" onclick="deleteColumns()"/>
+        <!--<img src="./images/addition.svg" title="Addition" onclick="addition()"/>
+        <img src="./images/subtraction.png" title="Subtraction" onclick="subtraction()"/>
+        <img src="./images/multiplication.svg" title="Multiplication" onclick="multiplication()" />
+        <img src="./images/division.svg" title="Division" onclick="division()"/>-->
+        <img src="./images/download.svg" onclick="exportTableToCSV('members.csv')" title="Download to CSV"/>
+    </div>
+    <div id="spreadsheet"></div>
+    <p id="result"></p>
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
